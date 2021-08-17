@@ -1,6 +1,6 @@
 {
     "name": "@egomobile/nodelike-utils",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Library of utilities, which are compatible with any important Node-like environment.",
     "main": "lib/index.js",
     "engines": {
@@ -59,7 +59,7 @@
         "README.md"
     ],
     "dependencies": {
-        "@egomobile/js-utils": "^0.2.1",
+        "@egomobile/js-utils": "^0.3.1",
         "@types/node": "^12.12.6"
     },
     "devDependencies": {
