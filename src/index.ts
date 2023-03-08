@@ -13,7 +13,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-import { toStringSafe } from '@egomobile/js-utils';
+import { toStringSafe } from "@egomobile/js-utils";
 
 /**
  * Checks if environment variable NODE_ENV is set to 'development'.
@@ -29,7 +29,7 @@ import { toStringSafe } from '@egomobile/js-utils';
  * @returns {boolean} (true), NODE_ENV is set to 'development'.
  */
 export function isDev(): boolean {
-    return isNodeEnv('development');
+    return isNodeEnv("development");
 }
 
 /**
@@ -70,7 +70,7 @@ export function isNodeEnv(name: any): boolean {
  * @returns {boolean} (true), NODE_ENV is set to 'production'.
  */
 export function isProd(): boolean {
-    return isNodeEnv('production');
+    return isNodeEnv("production");
 }
 
-export * from './utils';
+export * from "./utils";

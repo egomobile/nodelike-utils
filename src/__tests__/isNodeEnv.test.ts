@@ -13,16 +13,16 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-import { isNodeEnv } from '..';
+import { isNodeEnv } from "..";
 
-describe('isNodeEnv() function', () => {
-    it.each(['development', 'production'])('should return false, because NODE_ENV === test', (name) => {
-        expect(process.env.NODE_ENV).toBe('test');
+describe("isNodeEnv() function", () => {
+    it.each(["development", "production"])("should return false, because NODE_ENV === test", (name) => {
+        expect(process.env.NODE_ENV).toBe("test");
         expect(isNodeEnv(name)).toBe(false);
     });
 
-    it.each(['test', 'Test', 'TEST'])('should return true, because NODE_ENV === test', (name) => {
-        expect(process.env.NODE_ENV).toBe('test');
+    it.each(["test", "Test", "TEST"])("should return true, because NODE_ENV === test", (name) => {
+        expect(process.env.NODE_ENV).toBe("test");
         expect(isNodeEnv(name)).toBe(true);
     });
 });

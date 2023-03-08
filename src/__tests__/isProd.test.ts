@@ -13,11 +13,11 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-import { isProd } from '..';
+import { isProd } from "..";
 
-describe('isProd() function', () => {
-    it('should return false, because NODE_ENV === test', () => {
-        expect(process.env.NODE_ENV).toBe('test');
+describe("isProd() function", () => {
+    it("should return false, because NODE_ENV === test", () => {
+        expect(process.env.NODE_ENV).toBe("test");
         expect(isProd()).toBe(false);
     });
 });
