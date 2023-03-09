@@ -1,8 +1,8 @@
 # Change Log (@egomobile/nodelike-utils)
 
-## 0.4.0
+## 0.4.1
 
-- separate CommonJS, ESM and UMD support
+- separate CommonJS and ESM support
 
 ## 0.3.0
 
